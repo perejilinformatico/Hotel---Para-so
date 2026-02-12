@@ -1,0 +1,178 @@
+html {
+ scroll-behavior: smooth;
+ scrollbar-color: white;
+}
+* {
+ margin: 0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  z-index: 3;
+  padding: 25px;
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  width: calc(50% + 50%);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.192);
+  gap: calc(20% + 20%);
+}
+.span__header {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_img {
+    margin-right: 5px;
+    position: relative;
+    top: -2px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;   
+    margin-right: 10px;
+}
+a {
+   text-decoration: none;
+   color: black;
+}
+.a__button {
+    text-decoration: none;
+    background-color: rgb(236, 135, 3);
+    padding: 14px;
+    width: 150px;
+    border-radius: 11px;
+    transition: all 0.3s ease-in-out;
+    color: white;
+}
+.a__button:hover {
+    background-color: rgb(158, 91, 3);
+    text-decoration: none;
+}
+.a__button:active {
+    background-color: rgb(158, 91, 3);   
+}
+.section__heroPrincipal {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 200px;
+    height: 100px;
+    width: calc(40% + 28.3%);
+}
+.hero__div {
+    background-image: url('img/Hero__img.jfif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%, 150%;
+    padding: 200px;
+    height: 200px;
+    width: calc(50% + 50%);
+}
+.hero__div:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.308); /* gris claro */
+    z-index: 1;
+    padding: 200px;
+    height: 133px;
+    width: calc(40.1% + 28.25%);
+}
+.hero__div * {
+    position: relative;
+    z-index: 2;
+    color: white;
+}
+.gray__background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    position: relative;
+    top: 50px;
+}
+#a_linkbutton {
+    text-decoration: none;
+    background-color: rgb(203, 117, 4);
+    padding: 15px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;  
+}
+#a_linkbutton:hover {
+    background-color: rgb(158, 91, 3);  
+    text-decoration: none;
+}
+.section__NuestrasHabitaciones, .section__servicios, .sections__conteiners, .sections__conteiners{
+    padding: 30px;
+    margin: 30px;
+}
+.conteiner__cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.section__NuestrasHabitaciones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.card__div {
+    border: solid 1px transparent;
+    box-shadow: 1.5px 1px 0 2px rgba(0, 0, 0, 0.18);
+    width: 350px;
+    height: 400px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+}
+.div__conteiner {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.card__div > img {
+    display: flex;
+    border-radius: 20px;
+    width: 350px;
+    object-fit: cover;
+}
+.article__sectiones {
+    padding: 10px;
+    margin-top: 150px; 
+    text-align: center;
+}
+.section__servicios {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 100px;
+}
+.article__img {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.text-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
